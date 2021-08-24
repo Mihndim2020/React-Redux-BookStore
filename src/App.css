@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   margin: 0 10.625rem;
-  border: 1px salmon solid;
+  border: 1px skyblue solid;
   font-size: calc(10px + 2vmin);
   color: black;
 }
@@ -36,18 +36,34 @@
 
 .navLinks {
   font-size: 1rem;
-  color: #d9d9d9;
+  color: #464141;
 }
 
 .navLinks a {
   text-decoration: none;
-  color: gray;
+  color: rgb(43, 40, 40);
 }
 
 .profileIcon {
   width: 3rem;
   height: 3rem;
 }
+
+/* booksPage */
+
+.booksPageInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid skyblue;
+}
+
+.bookStatus {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 
 
 

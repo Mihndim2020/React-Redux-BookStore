@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom'
 
 import { Navbar } from './feature/components/Navbar'
+import { BooksPage } from './feature/components/booksPage'
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
             path="/"
             render={() => (
               <React.Fragment>
-                <Navbar /> 
+                <Navbar />
+                <BooksPage /> 
               </React.Fragment>
             )}
           />
