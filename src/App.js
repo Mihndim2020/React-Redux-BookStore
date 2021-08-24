@@ -9,6 +9,7 @@ import {
 
 import { Navbar } from './feature/components/Navbar'
 import { BooksPage } from './feature/components/booksPage'
+import { AddBookForm } from './feature/components/addBookForm'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
               <React.Fragment>
                 <Navbar />
                 <BooksPage /> 
+                <AddBookForm />
               </React.Fragment>
             )}
           />

@@ -8,8 +8,8 @@ export const BooksChapter = ({ bookId }) => {
 
   return (
     <div className="bookStatus">
-      <h5>CURRENT CHAPTER</h5>
-      <h4>{bookChapter.currentChapter.chapter}</h4>
+      <h6 className="currentChapter">CURRENT CHAPTER</h6>
+      <h6>{bookChapter.currentChapter.chapter}</h6>
       <h6>{bookChapter.currentChapter.progress}</h6>
     </div>
   )

@@ -64,8 +64,23 @@
   align-items: flex-start;
 }
 
+h6, h4 {
+  margin: 1rem;
+}
 
+/* bookForm */
 
+.bookForm input {
+  font-size: 2rem;
+  width: 75%;
+}
 
+.bookForm select {
+  font-size: 2rem;
+  width: 4%;
+}
 
-
+.bookForm button {
+  font-size: 2rem;
+  width: 20%;
+}

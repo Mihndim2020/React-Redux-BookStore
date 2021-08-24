@@ -20,5 +20,8 @@ export const BooksPage = () => {
     
   ))
   
-  return <>{renderedBooks}</>
+  return <>
+  {renderedBooks}
+  
+  </>
 }

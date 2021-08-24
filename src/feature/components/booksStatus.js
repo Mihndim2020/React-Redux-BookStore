@@ -9,7 +9,7 @@ export const BooksStatus = ({ bookId }) => {
   return (
     <div className="bookStatus">
       <h4>{bookStatus.status.percentage}</h4>
-      <h6>{bookStatus.status.completed}</h6>
+      <h4>{bookStatus.status.completed}</h4>
     </div>
   )
 }
