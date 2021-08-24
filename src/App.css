@@ -26,10 +26,10 @@
 }
 
 .booksStoreLogo {
-  color: #0079FE;
+  color: #0079fe;
 }
 
-.booksStoreLogo, 
+.booksStoreLogo,
 .navLinks {
   margin-right: 3rem;
 }
@@ -64,7 +64,8 @@
   align-items: flex-start;
 }
 
-h6, h4 {
+h6,
+h4 {
   margin: 1rem;
 }
 

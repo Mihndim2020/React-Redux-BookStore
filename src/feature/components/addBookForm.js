@@ -1,36 +1,23 @@
-import React, { useState } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
+import React from 'react';
 
-export const AddBookForm = () => {
-  const [title, setTitle] = useState('')
-  const [category, setContent] = useState('')
-  
-  const dispatch = useDispatch()
-  const books = useSelector(state => state.books)
+const AddBookForm = () => (
+  <section>
+    <h2>ADD NEW BOOK</h2>
+    <form className="bookForm">
+      <input
+        type="text"
+        name="postTitle"
+        placeholder="Book Title"
+        value="title"
+      />
+      <select>
+        <option value="" placeholder="Category">Cat</option>
+      </select>
+      <button type="submit">
+        ADD BOOK
+      </button>
+    </form>
+  </section>
+);
 
-  const onTitleChanged = e => setTitle(e.target.value)
-  const onCategoryChanged = e => setContent(e.target.value)
-
-  
-
-  return (
-    <section>
-      <h2>ADD NEW BOOK</h2>
-      <form className="bookForm">
-        <input
-          type="text"
-          id="postTitle"
-          name="postTitle"
-          placeholder="Book Title"
-          value={title}
-          onChange={onTitleChanged}
-        />
-        <select>
-          <option value="" placeholder="Category" ></option>
-        </select>
-        <button>
-        ADD BOOK</button>
-      </form>
-    </section>
-  )
-}
+export default { AddBookForm };

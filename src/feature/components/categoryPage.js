@@ -1,10 +1,9 @@
-import React from 'react'
+import React from 'react';
 
-export const CategoryPage = () => {  
-
-  return (
-<div>
+const CategoryPage = () => (
+  <div>
     <h1>Page under construction</h1>
-</div>  
-  )
-}
+  </div>
+);
+
+export default { CategoryPage };
