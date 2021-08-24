@@ -9,6 +9,8 @@
   color: black;
 }
 
+/* Navbar */
+
 .navContent {
   display: flex;
   flex-direction: row;
