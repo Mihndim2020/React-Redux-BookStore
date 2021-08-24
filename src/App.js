@@ -10,6 +10,7 @@ import {
 import { Navbar } from './feature/components/Navbar'
 import { BooksPage } from './feature/components/booksPage'
 import { AddBookForm } from './feature/components/addBookForm'
+import { CategoryPage } from './feature/components/categoryPage'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
               </React.Fragment>
             )}
           />
+           <Route exact path="/category" component={CategoryPage} />
           <Redirect to="/" />
         </Switch>
       </div>
